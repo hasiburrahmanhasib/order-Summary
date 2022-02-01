@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+}
+
+
+.order-card{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center  -200px;
+    background-size: cover;
+    background-color:hsl(225, 100%, 94%) ;
+    height:100vh;
+    
+    
+}
+img{
+    width: 100%;
+    object-fit: cover;
+   
+}
+.card-wraper{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.card{
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.card-content{
+    text-align: center;
+}
+.card-content-wraper{
+    padding: 30px;
+}
+.card-content h2{
+    margin-bottom: 25px;
+}
+.card-content p{
+    color:  hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+}
+.plan-wraper{
+    background-color:hsl(225, 100%, 98%) ;
+    padding:25px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 22px;
+}
+.plan-wraper a{
+    color: hsl(225, 52%, 53%);
+    text-decoration: none;
+    font-weight: 500;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price img{
+    width: 50px;
+    height: 50px;
+}
+.price-two {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.price-two h4{
+    font-size: 15px;
+}
+.price-two p{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+.btn{
+    border: 0;
+  
+    
+    cursor: pointer;
+  
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    
+}
+.btn-wraper{
+    display: flex;
+    flex-direction: column;
+}
+.btn-payment{
+    
+    margin-bottom: 20px;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+ 
+    box-shadow: 0 6px 9px 0 hsl(224, 23%, 55%);
+}
+.btn-cancel{
+    background-color: transparent;
+}
